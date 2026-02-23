@@ -17,7 +17,6 @@ services:
       - ./ros_home:/root  # Maps your local code to the container
     stdin_open: true
     tty: true
-    restart: unless-stopped
 
 volumes:
   turtlebot_data:
