@@ -25,7 +25,11 @@ In a new terminal:
 ```bash
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_bringup turtlebot3_remote.launch
-rosrun rviz rviz -d `rospack find turtlebot3_description`/rviz/model.rviz
+rosrun rviz rviz 
+
+
+NOTE: launch "turtlebot3_bringup turtlebot3_robot.launch on the bot"
+NOTE: launch "turtlebot3_bringup turtlebot3_remote.launch on the laptop" to get the lidar to work correctly
 
 ```
 

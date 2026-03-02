@@ -107,6 +107,7 @@ While the script is running, open **RViz**.
 * Watch the robot's behavior. Does it stop *before* it hits the wall?
 * **Problem Solving:** If the robot hits the wall, is it because the `safe_distance` is too small or because the robot is moving too fast?
 
+
 ---
 
 ## 5. Lab Exercises

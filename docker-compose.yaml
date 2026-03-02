@@ -10,8 +10,8 @@ services:
     environment:
       - DISPLAY=${DISPLAY}
       - TURTLEBOT3_MODEL=burger
-      - ROS_MASTER_URI=http://10.110.46.31:11311
-      - ROS_HOSTNAME=10.110.46.31 # Set this to your laptop's actual IP
+      - ROS_MASTER_URI=http://10.37.121.93:11311
+      - ROS_HOSTNAME=10.37.121.93 # Set this to your laptop's actual IP
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - ./ros_home:/root  # Maps your local code to the container
